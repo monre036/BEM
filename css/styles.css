@@ -19,7 +19,17 @@ ul {
     margin-bottom: 0;
 }
 
+:root {
+    --primary-color: blue;
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: #111;
+    color: var(--primary-color);
+}
+
+.main {
+    padding-inline: 25px;
 }
